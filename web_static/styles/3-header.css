@@ -1,0 +1,21 @@
+header {
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 20px;
+  height: 100%;
+  /* border: 1px solid salmon; */
+}
+
+.header-logo iframe {
+  border: none;
+  height: 100%;
+  /* border: 1px dashed purple; */
+}
