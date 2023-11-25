@@ -6,9 +6,6 @@ header {
 }
 
 .header-logo {
-  display: flex;
-  justify-content: flex-start;
-  position: relative;
   left: 20px;
   height: 100%;
   background-image: url("https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-higher-level_programming+/268/logo.png");
@@ -17,7 +14,12 @@ header {
   /* border: 1px solid salmon; */
 }
 
-/* .header-logo iframe {
-  border: none;
-  height: 100%;
-} */
+header {
+  display: flex;
+  align-items: center;
+}
+
+header .header-logo + h2 {
+  font-size: 38px;
+  margin: 5px;
+}
