@@ -69,19 +69,16 @@
 
 .popover-ul {
   visibility: hidden;
-  /* display: none; */
   background-color: #fafafa;
   border-radius: 4px;
   border: 1px solid #dddddd;
   margin-top: 21px;
   padding: 20px;
+  position: relative;
+  z-index: 1;
 }
 
-.locations:hover + .popover-ul {
-  visibility: visible;
-  /* display: block; */
-}
-
+.locations:hover + .popover-ul,
 .amenities:hover + .popover-ul {
   visibility: visible;
 }
